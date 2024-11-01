@@ -1,4 +1,0 @@
-package parser
-
-fun main() {
-}
