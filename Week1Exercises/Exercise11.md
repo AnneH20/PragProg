@@ -7,4 +7,4 @@ Write a script that takes a directory and converts each **.yaml** file into a co
 
 ## Solution to Exercise #11
 
-[Solution to Exercise #11](https://github.com/AnneH20/Notes/blob/main/src/main/kotlin/yamlTojson)
+[Solution to Exercise #11](https://github.com/AnneH20/Notes/blob/main/src/main/code/yamlTojson)

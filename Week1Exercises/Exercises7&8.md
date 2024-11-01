@@ -26,4 +26,4 @@ Implement the time parser using a scripting language and regular expressions.
 To run Exercise7.pegjs, go to this [website](https://peggyjs.org/online.html) and paste the code to run the PEGjs
 parser online.
 
-[Solutions to Exercises #7 and #8](https://github.com/AnneH20/Notes/blob/main/src/main/kotlin/parser)
+[Solutions to Exercises #7 and #8](https://github.com/AnneH20/Notes/blob/main/src/main/code/parser)

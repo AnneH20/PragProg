@@ -23,4 +23,4 @@ You may have to change the names of the commands to lower case, and maybe to wra
 
 ## Solution
 
-[Solutions to Exercises #4 and #5](https://github.com/AnneH20/Notes/blob/main/src/main/kotlin/turtle)
+[Solutions to Exercises #4 and #5](https://github.com/AnneH20/Notes/blob/main/src/main/code/turtle)
