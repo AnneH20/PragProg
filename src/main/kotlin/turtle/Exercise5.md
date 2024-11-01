@@ -6,5 +6,5 @@ You may have to change the names of the commands to lower case, and maybe to wra
 
 ## Solution
 
-%[https://github.com/AnneH20/Notes/blob/main/src/main/kotlin/turtle/Exercise5.kt]
+[Solution to Exercise #5](https://github.com/AnneH20/Notes/blob/main/src/main/kotlin/turtle/Exercise5.kt)
 

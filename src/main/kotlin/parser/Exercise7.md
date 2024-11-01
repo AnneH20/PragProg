@@ -19,4 +19,4 @@ BNF grammar from the previous exercise:
 
 ## Solution
 
-%[https://github.com/AnneH20/Notes/blob/main/src/main/kotlin/parser/Exercise7.kt]
+[Solution to Exercise #7](https://github.com/AnneH20/Notes/blob/main/src/main/kotlin/parser/Exercise7.kt)
