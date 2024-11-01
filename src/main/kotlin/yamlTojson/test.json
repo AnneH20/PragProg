@@ -1,0 +1,12 @@
+{
+  "title" : "This is some YAML",
+  "publisher" : "ConvertSimple Books",
+  "pages" : 250,
+  "chapters" : 21,
+  "time_to_read" : "12 hours",
+  "descriptors" : [ "fun", "entertaining", "exciting" ],
+  "contributors" : {
+    "author" : "Mark Templeton",
+    "editor" : "Cindy Johnson"
+  }
+}
