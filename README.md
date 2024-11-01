@@ -4,8 +4,6 @@
 
 Here is a list of all the coding exercises from "The Pragmatic Programmer":
 
-1. [Exercise #4](https://github.com/AnneH20/Notes/blob/main/src/main/kotlin/turtle/Exercise4.md)
-2. [Exercise #5](https://github.com/AnneH20/Notes/blob/main/src/main/kotlin/turtle/Exercise5.md)
-3. [Exercise #7](https://github.com/AnneH20/Notes/blob/main/src/main/kotlin/parser/Exercise7.md)
-4. [Exercise #8](https://github.com/AnneH20/Notes/blob/main/src/main/kotlin/parser/Exercise8.md)
-5. [Exercise #11](https://github.com/AnneH20/Notes/blob/main/src/main/kotlin/yamlTojson/Exercise11.md)
+1. [Exercises #4 and #5](https://github.com/AnneH20/Notes/blob/main/Exercises/Exercise4%265.md)
+2. [Exercises #7 and #8](https://github.com/AnneH20/Notes/blob/main/Exercises/Exercise7%268.md)
+3. [Exercise #11](https://github.com/AnneH20/Notes/blob/main/Exercises/Exercise11.md)
