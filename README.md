@@ -18,4 +18,4 @@
 
 ### Week 3 Exercises
 
-1. [Non-Coding Exercises](https://github.com/AnneH20/Notes/blob/main/Week3Exercises/Exercises.md)
+1. [Week 3 Exercises](https://github.com/AnneH20/Notes/blob/main/Week3Exercises/Week3Exercises.md)
