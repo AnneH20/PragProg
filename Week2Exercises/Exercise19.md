@@ -6,3 +6,5 @@ class would probably be initialized by passing in a table of transitions and an 
 Try implementing the string extractor that way.
 
 ## Solution to Exercise #19
+
+[Solution to Exercise #19] (To be added later)
