@@ -5,6 +5,6 @@ JSON, so you have a bunch of **.yaml** files that need to be turned into **.json
 Write a script that takes a directory and converts each **.yaml** file into a corresponding **.json** file
 (so **database.yaml** becomes **database.json**, and the contents are valid JSON).
 
-## Solution
+## Solution to Exercise #11
 
-[Solution to Exercise #11](https://github.com/AnneH20/Notes/blob/main/src/main/kotlin/yamlTojson/Exercise11.kt)
+[Solution to Exercise #11](https://github.com/AnneH20/Notes/blob/main/src/main/kotlin/yamlTojson)

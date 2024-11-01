@@ -15,6 +15,12 @@ U # pen up
 
 Implement the code that parses this language. it should be designed so that it is simple to add new commands.
 
+# Exercise #5
+
+In the previous exercise we implemented a parser for the drawing language—it was an external domain language.
+Now implement it again as an internal language. Don’t do anything clever: just write a function for each of the commands.
+You may have to change the names of the commands to lower case, and maybe to wrap them inside something to provide some context.
+
 ## Solution
 
-[Solution to Exercise #4](https://github.com/AnneH20/Notes/blob/main/src/main/kotlin/turtle/Exercise4.kt)
+[Solutions to Exercises #4 and #5](https://github.com/AnneH20/Notes/blob/main/src/main/kotlin/turtle)

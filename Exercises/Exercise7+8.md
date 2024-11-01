@@ -17,6 +17,10 @@ BNF grammar from the previous exercise:
 <ampm> ::= "am" | "pm"
 ```
 
+# Exercise #8
+
+Implement the time parser using a scripting language and regular expressions.
+
 ## Solution
 
-[Solution to Exercise #7](https://github.com/AnneH20/Notes/blob/main/src/main/kotlin/parser/Exercise7.kt)
+[Solutions to Exercises #7 and #8](https://github.com/AnneH20/Notes/blob/main/src/main/kotlin/parser)
