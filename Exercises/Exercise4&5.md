@@ -13,7 +13,7 @@ S 1 # then back south 1
 U # pen up
 ```
 
-Implement the code that parses this language. it should be designed so that it is simple to add new commands.
+Implement the code that parses this language. It should be designed so that it is simple to add new commands.
 
 # Exercise #5
 
