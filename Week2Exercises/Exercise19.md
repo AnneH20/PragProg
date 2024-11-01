@@ -4,3 +4,5 @@ In the FSM section we mentioned that you could move the generic state machine im
 class would probably be initialized by passing in a table of transitions and an initial state.
 
 Try implementing the string extractor that way.
+
+## Solution to Exercise #19

@@ -93,3 +93,4 @@ with the width and height. What properties of the output could be tested?
 
 Think about the code you’re currently working on. What are the properties: the contracts and invariants? Can you use 
 property-based testing framework to verify these automatically?
+

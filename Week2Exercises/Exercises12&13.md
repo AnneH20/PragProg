@@ -10,4 +10,4 @@ files. Remember to keep a backup of the originals in case something goes horribl
 
 ## Solution
 
-(To be added later)
+[Solutions to Exercises #12 and #14] (To be added later)

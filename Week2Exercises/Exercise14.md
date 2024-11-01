@@ -13,6 +13,6 @@ void fill()
 void empty()
 ```
 
-## Solution
+## Solution to Exercise #14
 
 (To be added later)
