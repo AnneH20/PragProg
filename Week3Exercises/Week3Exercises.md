@@ -65,7 +65,7 @@ That's right, isn't it?
 
 ## Exercise #28
 
-We coded a set of simple sort routines in Rust. Run them on various machines available to you. Do your figures 
+We coded a set of simple sort routines in [Rust](https://github.com/AnneH20/Notes/blob/main/src/main/ruby). Run them on various machines available to you. Do your figures 
 follow the expected curves? What can you deduce about the relative speeds of your machines? What are the effects of 
 various compiler optimization settings?
 

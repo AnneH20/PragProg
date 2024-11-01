@@ -19,3 +19,6 @@
 ### Week 3 Exercises
 
 1. [Week 3 Exercises](https://github.com/AnneH20/Notes/blob/main/Week3Exercises/Week3Exercises.md)
+
+
+Code from the author can be found [here](https://github.com/AnneH20/Notes/blob/main/resources)
