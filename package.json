@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "peggy": "^4.1.1"
+  },
+  "scripts": {
+    "timeParser": "node src/main/code/parser/Exercise7.js"
+  }
+}
+
