@@ -2,7 +2,7 @@ Exercise #1
 -----------
 Orthogonal - things are independent of one another (not tightly coupled)
 
-Split2 is more orthongonal because it's only focus is splitting the line. Split1 has multiple functionalities with in it. It is opening/reading files and splitting the line. 
+Split2 is more orthogonal because it's only focus is splitting the line. Split1 has multiple functionalities with in it. It is opening/reading files and splitting the line.
 
 
 Exercise #2
@@ -10,8 +10,8 @@ Exercise #2
 OO languages - has a lot of coupling features (inheritance, overloading, etc.)
 FP languages - has more of a focus on keeping things decoupled but can contain some coupling as well (like for data transformations)
 
-FP is techincally more orthogonal with it's base features/design/usage
-But, it depends on how people use them. The user can make things coupled despite the proposed usage of the different languages. If they aren't paying attention to the way they're coding, then both OO and FP can be incredibly coupled and nonorthongonal.
+FP is technically more orthogonal with is base features/design/usage
+But, it depends on how people use them. The user can make things coupled despite the proposed usage of the different languages. If they aren't paying attention to the way they're coding, then both OO and FP can be incredibly coupled and not orthogonal.
 
 
 Exercise #3
@@ -35,7 +35,7 @@ Exercise #6
 Exercise #9
 -----------
 We can assume that:
-- the storage device has all of the information needed to be transferred
+- the storage device has all the information needed to be transferred
 - we know the speed of the human
 - we know the distance between the computers
 - we don't need to know how long it would take to transfer data to/from the storage device
