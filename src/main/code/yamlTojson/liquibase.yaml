@@ -1,0 +1,29 @@
+databaseChangeLog:
+  - logicalFilePath: db/changelog/changes/0020-create-opportunity-mapping-table.yaml
+  - changeSet:
+      id: 0020.1 create opportunity mapping table
+      author: anne.heidebreicht
+      changes:
+        - createTable:
+            tableName: opportunity_mapping
+            columns:
+              - column:
+                  name: id
+                  type: int
+                  autoIncrement: true
+                  constraints:
+                    primaryKey: true
+              - column:
+                  name: referral_request_mapping_id
+                  type: int
+                  constraints:
+                    nullable: false
+                    foreignKeyName: opportunity_mapping_referral_request_mapping_fk
+                    referencedTableName: referral_request_mapping
+                    referencedColumnNames: id
+              - column:
+                  name: rt_opportunity_key
+                  type: clob
+                  constraints:
+                    nullable: false
+                    unique: true
