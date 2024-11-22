@@ -1,96 +1,83 @@
-# Week 3 Non-Coding Exercises
+Exercise #23
+------------
+The second code links all the objects to depend on one another. You need the result from `content_of` before you can do
+`find_matching_lines` and so forth.
 
-## Exercise #23
+If these were the only dependent code, I would prefer the second code implementation because it is cleaner and easier to
+read. But, if there were more objects added to the get the result, it would be too coupled and thus easier to break.
 
-In _Language X Doesn't Have Pipelines_ we wrote:
+Exercise #24
+------------
+_Image processing._
 
-```
-const content = File.read(file_name);
-const lines = find_matching_lines(content, pattern)
-const result = truncate_lines(lines)
-```
+It wouldn't be the best since you are working in parallel. A blackboard would be helpful if there was feedback from someone
+about the processes.
 
-Many people write OO code by chaining together method calls, and might be tempted to write this as something like:
+_Group calendaring._
 
-```
-const result = File.read(file_name)
-    .find_matching_lines(pattern)
-    .truncate_lines()
-```
+Yes. You can post the meetings' information and others' availability to the blackboard. You can set it up so the different
+formats/languages don't matter except for those that are actually in the meeting. If they aren't in the meeting, they don't
+need to know about the meeting.
 
-What’s the difference between these two pieces of code? Which do you think we prefer?
+_Network monitoring tool._
 
-## Exercise #24
+Yes. You can use the blackboard to post all the statistics and trouble reports. The agents can then look at the blackboard
+and gather the information they need to fix the problem. 
 
-Would a blackboard-style system be appropriate for the following applications? Why, or why not?
+Exercise #25
+------------
+In key-value pairs, the keys are typically unique. If they are duplicated, then there are errors thrown in the system. 
+These key-value pairs are being stored in an array. Arrays don't have constraints on the uniqueness of the keys, so
+duplicates may be allowed. 
 
-_Image processing_. You’d like to have a number of parallel processes grab chunks of an image, process them, and put the 
-completed chunk back.
+Exercise #26
+------------
+America is weird and therefore proclaims that we will not do anything like the rest of the world. In America, we can have
+just numeric phone numbers. In other parts of the world, they can over other symbols like `+` or `#`. If you are storing
+phone numbers from all over the world, not just America, you should store the phone numbers as strings not numeric values.
 
-_Group calendaring_. You’ve got people scattered across the globe, in different time zones, and speaking different 
-languages, trying to schedule a meeting.
+Exercise #27
+------------
+Again, the US is weird. Our conversion systems says that `1 US liquid gallon = 16 US cups`. Whatever an Imperial cup is,
+it takes `13.3` of them to make 1` US liquid gallon`. The cruise ship should be using whatever system the most people are
+comfortable with. Typically, not the US system.
 
-_Network monitoring tool_. The system gathers performance statistics and collects trouble reports, which agents use to 
-look for trouble in the system.
+Exercise #28
+------------
+(Run the code)
 
-## Exercise #25
-
-A data feed from a vendor gives you an array of tuples representing key-value pairs. The key of **DepositAccount** will hold 
-a string of the account number in the corresponding value:
-
-```
-[
-    ...
-    {:DepositAccount, "564-904-143-00"}
-    ...
-]
-```
-
-It worked perfectly in test on the 4-core developer laptops and on the 12-core build machine, but on the production 
-servers running in containers, you keep getting the wrong account numbers. What’s going on?
-
-## Exercise #26
+Exercise #29
+------------
 
 
-You’re coding an autodialer for voice alerts, and have to manage a database of contact information. The ITU specifies 
-that phone numbers should be no longer than 15 digits, so you store the contact’s phone number in a numeric field 
-guaranteed to hold at least 15 digits. You’ve tested in thoroughly throughout North America and everything seems fine, 
-but suddenly you’re getting a rash of complaints from other parts of the world. Why?
+Exercise #30
+------------
+According to math, to convert from `log n` to `log<sub>10</sub>n`, you must do:
 
-## Exercise #27
+log<sub>b</sub>x = log<sub>c</sub>x / log<sub>c</sub>b
 
-You have written an app that scales up common recipes for a cruise ship dining room that seats 5,000. But you’re getting 
-complaints that the conversions aren’t precise. You check, and the code uses the conversion formula of 16 cups to a gallon.
-That's right, isn't it?
+Since log<sub>c</sub>b is a constant, we ignore it in Big O notation.
 
-## Exercise #28
+Exercise #31
+------------
+If the warehouse has enough inventory, then the order will succeed. You can test this by placing orders of various quantities
+and returning an "OK" message if the order is successful. Otherwise, throw "Insufficient Inventory" error.
 
-We coded a set of simple sort routines in [Rust](https://github.com/AnneH20/Notes/blob/main/src/main/ruby). Run them on various machines available to you. Do your figures 
-follow the expected curves? What can you deduce about the relative speeds of your machines? What are the effects of 
-various compiler optimization settings?
+Exercise #32
+------------
+1. Is it possible that the crates will exceed the dimensions of the truck?
+2. Will/can the crates overlap/interlock?
+3. How dense can you pack the truck?
+4. Is there a weight limit for the truck?
 
-## Exercise #29
-
-In _Common Sense Estimation_, on page 206, we claimed that a binary chop is O(lg n). Can you prove this?
-
-## Exercise #30
-
-In Figure 3, _Runtimes of various algorithms_, on page 205, we claimed that O(lg n) is the same as O(log<sub>10</sub>n) 
-(or indeed logarithms to any base). Can you explain why?
-
-## Exercise #31
-
-Look back at the warehouse example. Are there any other properties that you can test?
-
-## Exercise #32
-
-Your company ships machinery. Each machine comes in a crate, and each crate is rectangular. The crates vary in size. 
-Your job is to write some code to pack as many crates as possible in a single layer that fits in the delivery truck. 
-The output of your code is a list of all the crates. For each crate, the list gives the location in the truck, along 
-with the width and height. What properties of the output could be tested?
-
-## Exercise #33
-
-Think about the code you’re currently working on. What are the properties: the contracts and invariants? Can you use 
-property-based testing framework to verify these automatically?
-
+Exercise #33
+------------
+1. Genuine requirement
+2. Not really a requirement from the statement alone. Just a suggestion since there is a possibility that it will be 
+changed down the line. It could potentially be a genuine requirement if there are company-wide standards for background
+colors, what certain branding the team is using, etc. 
+3. Not a genuine requirement. It is a software architecture design. You need to ask the users directly what they want rather
+than a solution that would give them something.
+4. It's a requirement, but more specific wording would be helpful. Saying something like "Errors will be thrown for invalid
+fields inputted by the user" would be more helpful.
+5. This is definitely a requirement. It is a specific action that the software must do. 

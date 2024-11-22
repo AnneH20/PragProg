@@ -21,6 +21,7 @@ Whiteboards, scratch paper, sticky notes, Microsoft Paint, pretty much anything 
 
 Exercise #6
 -----------
+```
 <time> ::= <hour> ":" <minute-t> <digit> | <hour <ampm> | <hour> ":" <minute-t> <digit> <ampm>
 
 <hour> ::= "0 <digit> | "1" <digit> | "2" <digit>
@@ -30,7 +31,7 @@ Exercise #6
 <digit> ::= "0" | "1" | "2" | "3" | "4" | "5" | "6" | "7" | "8" | "9"
 
 <ampm> ::= "am" | "pm"
-
+```
 
 Exercise #9
 -----------
@@ -52,6 +53,6 @@ According to the internet, we can assume these stats:
 
 So, assuming no data loss or other external factors, we can say that the human will have a higher bandwidth until the distance between the computers goes above 7.5 miles.
 
-3 mph * 2.5 hours = 7.5 miles that a human can be faster at transferring data
+`3 mph * 2.5 hours = 7.5 miles` that a human can be faster at transferring data
 
 
