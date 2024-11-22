@@ -52,7 +52,7 @@ Exercise #29
 
 Exercise #30
 ------------
-According to math, to convert from `log n` to `log<sub>10</sub>n`, you must do:
+According to math, to convert from log n to log<sub>10</sub>n, you must do:
 
 log<sub>b</sub>x = log<sub>c</sub>x / log<sub>c</sub>b
 
